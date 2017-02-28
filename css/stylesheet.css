@@ -1,5 +1,5 @@
 .circle {
-  margin: 300px;
+  margin: 10px;
   border-radius: 50%;
   border: 5px #000000 solid;
   height: 300px;
@@ -50,7 +50,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(0deg);
+  transform: rotate(180deg);
   transform-origin: 150px 150px; }
 
 .seg {
@@ -63,7 +63,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(30deg);
+  transform: rotate(180deg);
   transform-origin: 150px 150px; }
 
 .minut {
@@ -76,7 +76,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(200deg);
+  transform: rotate(180deg);
   transform-origin: 150px 150px; }
 
 .hr {
@@ -93,5 +93,8 @@
   width: 20px;
   height: 20px;
   transform: translate(140px, 140px); }
+
+.relojes {
+  display: flex; }
 
 /*# sourceMappingURL=stylesheet.css.map */

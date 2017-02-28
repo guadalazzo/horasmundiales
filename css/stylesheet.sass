@@ -6,8 +6,9 @@ $anchSeg: 2.5px
 $anchMin: 4px
 $anchHr: 5px 
 $altMarca: $circulo - $anchMarca
+
 .circle
-	margin: 300px
+	margin: 10px
 	border-radius: 50%
 	border: 5px $primary solid
 	height: $circulo
@@ -58,7 +59,7 @@ $altMarca: $circulo - $anchMarca
 	position: absolute
 	top: 0
 	left: 0
-	transform: rotate(0deg)
+	transform: rotate(180deg)
 	transform-origin: ($circulo/2) ($circulo/2)
 
 .seg
@@ -71,7 +72,7 @@ $altMarca: $circulo - $anchMarca
 	position: absolute
 	top: 0
 	left: 0
-	transform: rotate(30deg)
+	transform: rotate(180deg)
 	transform-origin: ($circulo/2) ($circulo/2)
 
 .minut
@@ -84,7 +85,7 @@ $altMarca: $circulo - $anchMarca
 	position: absolute
 	top: 0
 	left: 0
-	transform: rotate(200deg)
+	transform: rotate(180deg)
 	transform-origin: ($circulo/2) ($circulo/2)
 
 .hr	
@@ -101,3 +102,6 @@ $altMarca: $circulo - $anchMarca
 	width: 20px
 	height: 20px
 	transform: translate(($circulo/2)-10px , ($circulo/2)-10px)
+
+.relojes
+	display: flex
