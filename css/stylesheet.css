@@ -1,0 +1,46 @@
+.circle {
+  margin: 300px;
+  border-radius: 50%;
+  border: 5px #000000 solid;
+  height: 300px;
+  width: 300px;
+  position: relative; }
+
+.marcaY {
+  transform: translate(145px, 0);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 295px;
+  width: 5px;
+  display: block;
+  background-color: #000000; }
+
+.marcaX {
+  transform: translate(0, 145px);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 5px;
+  width: 295px;
+  display: block;
+  background-color: #000000; }
+
+.cuarto {
+  transform-origin: 147.5px 147.5px; }
+
+.rotate-30 {
+  transform: rotate(30deg); }
+
+.rotate-60 {
+  transform: rotate(60deg); }
+
+.inside-circle {
+  width: 260px;
+  height: 260px;
+  background-color: white;
+  border-radius: 50%;
+  transform-origin: 147.5px 147.5px;
+  transform: translate(18px, 18px); }
+
+/*# sourceMappingURL=stylesheet.css.map */

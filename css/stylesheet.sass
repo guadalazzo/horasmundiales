@@ -1,0 +1,52 @@
+@import _variables
+
+$circulo: 300px
+$anchMarca: 5px
+$altMarca: $circulo - $anchMarca
+.circle
+	margin: 300px
+	border-radius: 50%
+	border: 5px $primary solid
+	height: $circulo
+	width: $circulo
+	position: relative
+
+.marcaY
+	transform: translate(($circulo/2) - 5px, 0)
+	position: absolute
+	margin: 0
+	padding: 0
+	height: $altMarca
+	width: $anchMarca
+	display: block
+	background-color: $primary
+
+.marcaX
+	transform: translate(0, ($circulo/2) - 5px)
+	position: absolute
+	margin: 0
+	padding: 0
+	height: $anchMarca
+	width: $altMarca
+	display: block
+	background-color: $primary
+
+.cuarto
+	transform-origin: ($circulo/2)-2.5px ($circulo/2)-2.5px
+
+.rotate-30
+	transform: rotate(30deg)
+
+.rotate-60
+	transform: rotate(60deg)
+
+.inside-circle
+	width: $circulo - 40px
+	height: $circulo - 40px
+	background-color: white
+	border-radius: 50%
+	transform-origin: ($circulo/2)-2.5px ($circulo/2)-2.5px
+	transform: translate(18px, 18px)
+
+
+
