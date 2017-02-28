@@ -2,6 +2,9 @@
 
 $circulo: 300px
 $anchMarca: 5px
+$anchSeg: 2.5px
+$anchMin: 4px
+$anchHr: 5px 
 $altMarca: $circulo - $anchMarca
 .circle
 	margin: 300px
@@ -41,6 +44,9 @@ $altMarca: $circulo - $anchMarca
 	transform: rotate(60deg)
 
 .inside-circle
+	position: absolute
+	left: 0
+	top: 0
 	width: $circulo - 40px
 	height: $circulo - 40px
 	background-color: white
@@ -48,5 +54,50 @@ $altMarca: $circulo - $anchMarca
 	transform-origin: ($circulo/2)-2.5px ($circulo/2)-2.5px
 	transform: translate(18px, 18px)
 
+.segundero
+	position: absolute
+	top: 0
+	left: 0
+	transform: rotate(0deg)
+	transform-origin: ($circulo/2) ($circulo/2)
 
+.seg
+	height: ($circulo/2) - 30px
+	width: $anchSeg
+	background-color: $primary
+	transform: translate(($circulo/2)-2.5px  , ($circulo/2)-2.5px )
 
+.minutero
+	position: absolute
+	top: 0
+	left: 0
+	transform: rotate(30deg)
+	transform-origin: ($circulo/2) ($circulo/2)
+
+.minut
+	height: ($circulo/2) - 40px
+	width: $anchMin
+	background-color: $primary
+	transform: translate(($circulo/2)-2.5px  , ($circulo/2)-2.5px )
+
+.horas
+	position: absolute
+	top: 0
+	left: 0
+	transform: rotate(200deg)
+	transform-origin: ($circulo/2) ($circulo/2)
+
+.hr	
+	height: ($circulo/2) - 50px
+	width: $anchHr
+	background-color: $primary
+	transform: translate(($circulo/2)-2.5px , ($circulo/2)-2.5px)
+
+.manecilla-circle
+	border-radius: 50%
+	position: absolute
+	transform-origin: ($circulo/2) ($circulo/2)
+	background-color: $primary
+	width: 20px
+	height: 20px
+	transform: translate(($circulo/2)-10px , ($circulo/2)-10px)

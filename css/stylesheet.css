@@ -36,11 +36,62 @@
   transform: rotate(60deg); }
 
 .inside-circle {
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 260px;
   height: 260px;
   background-color: white;
   border-radius: 50%;
   transform-origin: 147.5px 147.5px;
   transform: translate(18px, 18px); }
+
+.segundero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(0deg);
+  transform-origin: 150px 150px; }
+
+.seg {
+  height: 120px;
+  width: 2.5px;
+  background-color: #000000;
+  transform: translate(147.5px, 147.5px); }
+
+.minutero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(30deg);
+  transform-origin: 150px 150px; }
+
+.minut {
+  height: 110px;
+  width: 4px;
+  background-color: #000000;
+  transform: translate(147.5px, 147.5px); }
+
+.horas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(200deg);
+  transform-origin: 150px 150px; }
+
+.hr {
+  height: 100px;
+  width: 5px;
+  background-color: #000000;
+  transform: translate(147.5px, 147.5px); }
+
+.manecilla-circle {
+  border-radius: 50%;
+  position: absolute;
+  transform-origin: 150px 150px;
+  background-color: #000000;
+  width: 20px;
+  height: 20px;
+  transform: translate(140px, 140px); }
 
 /*# sourceMappingURL=stylesheet.css.map */
