@@ -1,11 +1,24 @@
 @import _variables
 
-$circulo: 300px
+$circulo: 200px
 $anchMarca: 5px
 $anchSeg: 2.5px
 $anchMin: 4px
 $anchHr: 5px 
 $altMarca: $circulo - $anchMarca
+
+.container-fluid
+	height: 100vh
+	width: 100vw
+	padding: 0
+	background-color: $back
+
+.init-text
+	margin-top: 5vh 
+	font-family: 'Dancing Script', cursive
+	font-size: 40px
+	color: white
+	text-align: center
 
 .circle
 	margin: 10px
@@ -14,6 +27,7 @@ $altMarca: $circulo - $anchMarca
 	height: $circulo
 	width: $circulo
 	position: relative
+	background-color: white
 
 .marcaY
 	transform: translate(($circulo/2) - 5px, 0)
@@ -105,3 +119,49 @@ $altMarca: $circulo - $anchMarca
 
 .relojes
 	display: flex
+	justify-content: center
+	align-items: center
+	background-color: $back
+	height: 40vh
+
+
+.londres
+	font-family: 'IM Fell English SC', serif
+	font-size: 20px
+	color: $primary
+	text-align: center
+
+.buenos-aires
+	font-family: 'Milonga', cursive
+	font-size: 18px
+	color: $primary
+	text-align: center
+
+.new-york
+	font-family: 'Lobster', cursive
+	font-size: 20px
+	color: $primary
+	text-align: center
+
+.Amsterdam
+	font-family: 'Supermercado One', cursive
+	font-size: 20px
+	color: $primary
+	text-align: center
+
+.el-cairo
+	font-family: 'Architects Daughter', cursive
+	font-size: 20px
+	color: $primary
+	text-align: center
+
+.Tokio
+	font-family: 'Audiowide', cursive
+	font-size: 20px
+	color: $primary
+	text-align: center
+
+
+
+	
+
