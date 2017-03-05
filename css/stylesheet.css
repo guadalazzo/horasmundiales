@@ -1,7 +1,9 @@
-.container-fluid {
-  height: 100vh;
-  width: 100vw;
-  padding: 0;
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.color-bg {
   background-color: #386d37; }
 
 .init-text {
@@ -109,9 +111,6 @@
   transform: translate(90px, 90px); }
 
 .relojes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #386d37;
   height: 40vh; }
 
@@ -150,5 +149,14 @@
   font-size: 20px;
   color: #000000;
   text-align: center; }
+
+body {
+  background-color: #386d37; }
+
+@media (min-width: 992px) {
+  .relojes {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

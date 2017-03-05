@@ -1,3 +1,4 @@
+
 @import _variables
 
 $circulo: 200px
@@ -7,10 +8,12 @@ $anchMin: 4px
 $anchHr: 5px 
 $altMarca: $circulo - $anchMarca
 
-.container-fluid
-	height: 100vh
-	width: 100vw
-	padding: 0
+.center
+	display: flex
+	align-items: center
+	justify-content: center
+
+.color-bg
 	background-color: $back
 
 .init-text
@@ -118,9 +121,6 @@ $altMarca: $circulo - $anchMarca
 	transform: translate(($circulo/2)-10px , ($circulo/2)-10px)
 
 .relojes
-	display: flex
-	justify-content: center
-	align-items: center
 	background-color: $back
 	height: 40vh
 
@@ -161,7 +161,13 @@ $altMarca: $circulo - $anchMarca
 	color: $primary
 	text-align: center
 
-
+body
+	background-color: $back
+@media (min-width: 992px)
+	.relojes
+		display: flex
+		align-items: center
+		justify-content: center	
 
 	
 
